@@ -13,7 +13,7 @@ return [
     */
 
     'routes' => [
-        'home'       => 'forums',
+        'home'       => 'forum',
         'discussion' => 'discussion',
         'category'   => 'category',
         'post'       => 'posts',
@@ -54,9 +54,9 @@ return [
     |
     */
 
-    'headline'      => 'Welcome to Chatter',
-    'description'   => 'A simple forum package for your Laravel app.',
-    'headline_logo' => '/vendor/devdojo/chatter/assets/images/logo-light.png',
+    'headline'      => 'Bienvenidos a ProinChile',
+    'description'   => 'La comunidad de programadores e informaticos chilenos mas grande',
+    'headline_logo' => 'https://s3-sa-east-1.amazonaws.com/proinchile/logo.png',
 
     /*
     |--------------------------------------------------------------------------
@@ -187,7 +187,7 @@ return [
     */
 
     'security' => [
-        'limit_time_between_posts' => true, //
+        'limit_time_between_posts' => false, //
         'time_between_posts'       => 1, // In minutes
     ],
 
