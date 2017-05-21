@@ -13,7 +13,7 @@ return [
     */
 
     'routes' => [
-        'home'       => 'forum',
+        'home'       => '',
         'discussion' => 'discussion',
         'category'   => 'category',
         'post'       => 'posts',

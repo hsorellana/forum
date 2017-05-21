@@ -230,7 +230,7 @@
 		});
 		$('#new_discussion_btn, #cancel_discussion').click(function(){
 			@if(Auth::guest())
-				window.location.href = "/login";
+				window.location.href = "/{{ Config::get('chatter.routes.home') }}/login";
 			@else
 				$('#new_discussion').slideDown();
 				$('#title').focus();
