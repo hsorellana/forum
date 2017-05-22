@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'env' => 'production',
+    'env' => env('APP_ENV'),
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Santiago',
 
     /*
     |--------------------------------------------------------------------------
@@ -176,7 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-	DevDojo\Chatter\ChatterServiceProvider::class,
+	   DevDojo\Chatter\ChatterServiceProvider::class,
 
     ],
 
